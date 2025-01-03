@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmap Web Interface</title>
+</head>
+<body>
+    <h1>Nmap Web Interface</h1>
+    <form method="GET">
+        <label for="host">Target (Hostname/IP):</label><br>
+        <input type="text" id="host" name="host" required><br><br>
+
+		<label for="command">Select Command:</label>
+		<select id="command" name="command" required>
+				<option value="nmap">nmap</option>
+				<option value="dig">dig</option>
+				<option value="ping">ping</option>
+		</select><br><br>
+
+        <input type="submit" value="Run">
+    </form>
+
+    {% if output %}
+        <h2>Scan Result:</h2>
+        <pre>{{ output }}</pre>
+    {% endif %}
+</body>
+</html>
+
