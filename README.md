@@ -2,7 +2,7 @@
 
 A challenge we made for Ekoparty's 2024 Main CTF. 
 
-Find the writeup here: https://MEDIUM-LINK
+Find the writeup here: [https://blog.kulkan.com/our-nmap-ctf-challenge-for-ekoparty-cf55379bf000](https://blog.kulkan.com/our-nmap-ctf-challenge-for-ekoparty-cf55379bf000)
 
 ## Running the challenge:
 
